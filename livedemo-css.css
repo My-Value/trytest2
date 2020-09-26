@@ -1,0 +1,157 @@
+/* 下拉菜单进行了调整，动的是#box*/
+html {
+  font-size: 5.33333333vw;
+}
+.wrap {
+  width: 18.75rem;
+  overflow: hidden;
+  background-image: url(/image/livedemo-background.png);
+}
+.topbar {
+  width: 18.75rem;
+  height: 4.25rem;
+  background-image: url(/image/topbar-one.png), url(/image/topbar-two.png);
+  background-size: 100% 100%;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+.topbar-left {
+  padding-top: 0.6rem;
+  margin-left: 0.8rem;
+}
+.topbar-left img {
+  width: 3rem;
+}
+.user-message {
+  position: relative;
+}
+.student-msg {
+  position: absolute;
+  left: 2.75rem;
+  top: 0.25rem;
+  width: 3.5rem;
+  height: 2.25rem;
+  color: wheat;
+  margin-left: 0.6rem;
+}
+.student-msg p {
+  font-size: 0.75rem;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+.student-msg span {
+  font-size: 0.6rem;
+  color: #abc1c9;
+}
+#box {
+  position: absolute;
+  right: 0px;
+  color: aliceblue;
+  width: 3.4rem;
+  height: 1.125rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.425rem;
+  line-height: 25px;
+  margin-right: 1.3rem;
+  cursor: pointer;
+  overflow: hidden;
+  top: 0.95rem;
+}
+.change-student-img img {
+  position: absolute;
+  width: 0.6rem;
+  top: 1.4rem;
+  right: 0.975rem;
+  margin-left: 0.8rem;
+}
+#box span {
+  font-size: 0.65rem;
+  color: #35D7E3;
+}
+#down {
+  position: absolute;
+  border: 1px solid #c5c5c5;
+  width: 2rem;
+  margin-left: 0.5rem;
+  right: 1.25rem;
+  left: 14.25rem;
+  display: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  font-size: 0.35rem;
+  border-bottom: 1px dashed #c5c5c5;
+  text-align: center;
+  height: 0.875rem;
+  line-height: 1rem;
+  color: aliceblue;
+  background-color: #333;
+  cursor: pointer;
+  right: 1.25rem;
+}
+li:hover {
+  background-color: #5c0e0e;
+}
+#topbar-right {
+  float: right;
+  color: white;
+  margin-top: -2.5rem;
+}
+#topbar-right img {
+  width: 0.6rem;
+  padding-left: 0.4rem;
+  padding-right: 0.8rem;
+}
+#topbar-right span {
+  font-size: 0.6rem;
+  color: #44f7fe;
+}
+#down {
+  border: 1px solid #c5c5c5;
+  width: 3.25rem;
+  margin-left: 5px;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  top: 2.3rem;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  font-size: 0.575rem;
+  border-bottom: 1px dashed #c5c5c5;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: aliceblue;
+  background-color: #333;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #5c0e0e;
+}
+.video {
+  width: 18.75rem;
+  padding: 0 0.75rem;
+  padding-left: 0.875rem;
+  position: relative;
+  margin-bottom: 1.6rem;
+}
+.video-topbar {
+  position: absolute;
+  z-index: 99;
+  margin-top: 0.6rem;
+  margin-left: 0.6rem;
+}
+.video-topbar span {
+  font-size: 0.625rem;
+  color: #fff;
+}

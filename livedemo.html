@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="livedemo-css.css">
+    <link rel="stylesheet" href="common.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 
+            监控页面的头部信息
+            头像，学生姓名，班级
+            切换学生的功能
+         -->
+        <div class="topbar">
+            <div class="topbar-left">
+                <div class="user-message">
+                    <img src="../image/user-image.png" alt="">
+                    <div class="student-msg">
+                        <p>张三</p>
+                        <span>七年级一班</span>
+                    </div>
+                </div>
+            </div>
+            <div id="box">
+                <span>切换学生</span>
+            </div>
+            <div class="change-student-img">
+                <img src="../image/切换学生箭头.png" alt="">
+            </div>
+            <div id="down">
+                <ul class="phones">
+                    <li>赵珂</li>
+                    <li>王琳琳</li>
+                    <li>王梦梅</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="video frist-video">
+                <div class="video-topbar">
+                    <span class="style-font1">班级视频</span>
+                </div>
+                <video class="video-style" id="myVideo" src="" controls preload="auto" autoplay="muted"
+                    style="width: 90%;height: 200px;border-radius:5%;">
+                    <source id="source" type="application/x-mpegURL" />
+                </video>
+            </div>
+
+            <div class="video frist-video">
+                <div class="video-topbar">
+                    <span class="style-font1">操场视频</span>
+                </div>
+                <video class="video-style" id="myVideo" src="" controls preload="auto" autoplay="muted"
+                    style="width: 90%;height: 200px;border-radius:5%;">
+                    <source id="source" type="application/x-mpegURL" />
+                </video>
+            </div>
+
+            <div class="video frist-video">
+                <div class="video-topbar">
+                    <span class="style-font1">校门视频</span>
+                </div>
+                <video class="video-style" id="myVideo" src="" controls preload="auto" autoplay="muted"
+                    style="width: 90%;height: 200px;border-radius:5%;">
+                    <source id="source" type="application/x-mpegURL" />
+                </video>
+            </div>
+
+        </div>
+    </div>
+    <script src="livedemo-js.js"></script>
+</body>
+
+</html>
